@@ -1,0 +1,10 @@
+ :root {
+    - -azul-cinza-desktop: #D7E1FF;
+    - -claro-popups: #ECF1FF;
+    - -escuro-telas: #90A4E0;
+ }
+
+ body{
+    background-color: var(-azul-cinza-deskto );
+
+ }
