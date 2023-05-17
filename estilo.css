@@ -2,9 +2,27 @@
     - -azul-cinza-desktop: #D7E1FF;
     - -claro-popups: #ECF1FF;
     - -escuro-telas: #90A4E0;
+    - -fonte-principal: 'inter';
  }
 
  body{
-    background-color: var(-azul-cinza-deskto );
-
+    background-color: var(-azul-cinza-desktop );
+    color: var(- -claro-popups);
+    font-family: var(- -fonte-principal);
+    font: 16px;
+    font-weight: 400;
+ }
+ *{
+   margin: 0;
+   padding: 0;
+ }
+ .principal{
+   background-image: url("./Component\ 1.png");
+   background-repeat: no-repeat;
+   background-size: contain;
+ }
+ .container{
+    height: 100vh; 
+    display: grid;
+    grid-template-columns: 50% 50%;
  }
